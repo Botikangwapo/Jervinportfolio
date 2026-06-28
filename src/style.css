@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bungee&family=Changa+One:ital@0;1&family=Imperial+Script&family=Jaro:opsz@6..72&family=Krona+One&family=Miniver&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Parisienne&family=Poppins:ital,wght@0,100;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Spray+Paint&family=Russo+One&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Sen:wght@400..800&family=Sigmar&family=UnifrakturMaguntia&family=Zen+Dots&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+@custom-variant light (&:where(.light, .light *));
+
+@theme {
+  --font-outfit: "Outfit", sans-serif;
+  --font-Russo: "Russo One", sans-serif;
+}
+
+
+html,
+section,
+button,
+section,
+nav,
+header {
+  transition: background-color 0.5s ease, color 0.5s ease !important;
+}
+
+html {
+  background-color: #0B0B0B;
+  color: #f1f5f9;
+}
+
+html.light {
+  background-color: #FFFFFF;
+  color: #111827;
+}
